@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "7d77aef4-02b5-4843-8908-b59cbcbcbda5",
+  "revision": 2131,
+  "createdAt": "2026-09-26T03:28:30.634Z",
+  "exportedAt": "2026-09-26T04:32:44.573Z",
+  "learnerLabel": "Craig Temple Business Case ",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "W02-S01 / SOURCE RECORD: I propose a QA Control Review of the affected QA cell. We need to establish who owns command authorization, how retired tests remain controlled, and how evidence will be preserved for later decisions."
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "Existing process needs better traceability for records related to affected QA cells. Six record requests took 60 staff minutes, and only two had both a clear owner and link to the original source."
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "QA and Engineering could benefit from clearer, traceable records to support further investigation. Operations could benefit from having a defensible basis for requesting future work. Future savings or production recovery HAS NOT been measured at this time. "
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "Recommended work: Review ownership, test scheduling/retirement controls, and evidence preservation practices for the affected cell; identify and document gaps or unknowns.\n\nDeliverables: Command-ownership record, control inventory, evidence-preservation checklist, and gap report.\n\n\n"
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "This review does not authorize restarting or operating MR-17, changing software or schedules, modifying or deleting original records, purchasing a replacement robot, selecting a vendor, or expanding the review to other cells."
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The review is feasible using existing tools and read-only exports. However, access to exports has not been confirmed at this time. "
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "The work can fit around normal duties if staffing is confirmed with QA/Ops. "
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "Excluded: equipment, licenses and overtime."
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "Per Elias: Late exports or a QA shift reassignment could change it. Neither has happened in this packet. Engineering can't begin before day four, and the plan assumes exports arrive by day three. Keep those assumptions visible when you discuss the ten-day limit."
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "The review is limited to a $3,000 planning envelope and ten business days."
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "Assumption is that the users can obtain the read only exports and they will arrive by day 3. There's a possibility the access gets denied or they arrive late which will delay the workflow. "
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "Nia: W02-S02 / SOURCE RECORD\nThe sponsor can check delivery with Nia and Elias, and with Mara recording their feedback. \nFor later value, the measured baseline is 2 out of 6 requests having a source link. A proposed target is for all 6 requests to have links. "
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "proceed"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "I chose proceed because the request has clear discovery deliverables that can be produced using existing tools. \nWe are within budget as the base estimate is $180 below the $3,000 envelope (W02-S05).\nPer Nia: Preserving evidence and finding its owner are useful even if the robot's technical fault has not been identified (W02-S02).\nThe main tradeoff is cost and schedule uncertainty. \nEvidence that most affected my judgment: Only 2 of 6 record requests had both an identified custodian and clear source link showing an efficiency of record  traceability.\n\n"
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "Elias should confirm access to read only exports. QA and Ops to confirm staff availability. Once those are complete Mara should present use case to the sponsors. "
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
