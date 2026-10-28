@@ -228,7 +228,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="3 Definitions and finding" id="2">
-    <mxGraphModel dx="1007" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,7 +373,7 @@
         <mxCell id="r7c4" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#18333e;strokeColor=#4d7682;fillColor=#ffffff;align=left;fontSize=12;" value="&lt;span style=&quot;color: rgb(86, 91, 91); font-family: &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif; font-size: 13px; font-weight: 600; background-color: rgb(148, 157, 161);&quot;&gt;W06-S02&lt;/span&gt;" vertex="1">
           <mxGeometry height="48" width="249" x="880" y="516" as="geometry" />
         </mxCell>
-        <mxCell id="finding" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#18333e;strokeColor=#4d7682;fillColor=#ffffff;align=left;" value="&lt;b&gt;Finding:&lt;/b&gt; [Report ID, expected department, observed department, source IDs. Use 2–3 sentences.]&lt;br&gt;&lt;br&gt;&lt;b&gt;Unanswered question:&lt;/b&gt; [What evidence would help establish the cause?]" vertex="1">
+        <mxCell id="finding" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;fontColor=#18333e;strokeColor=#4d7682;fillColor=#ffffff;align=left;" value="&lt;b&gt;Finding:&lt;/b&gt;&amp;nbsp;Report CJ-603 was listed as a BRIDGE inspection in W06-S02. According to W06-S03, it should have gone to Structures, but W06-S04 shows it was sent to Electrical instead. This confirms a routing issue, but we don&#39;t have enough information to know what caused it.Report CJ-603 was listed as a BRIDGE inspection in W06-S02. According to W06-S03, it should have gone to Structures, but W06-S04 shows it was sent to Electrical instead. This confirms a routing issue, but we don&#39;t have enough information to know what caused it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Unanswered question:&lt;/b&gt;&amp;nbsp;Was the Routing Table (D2) set up correctly when CJ-603 was processed?Was the Routing Table (D2) set up correctly when CJ-603 was processed?" vertex="1">
           <mxGeometry height="170" width="1089" x="40" y="585" as="geometry" />
         </mxCell>
       </root>
