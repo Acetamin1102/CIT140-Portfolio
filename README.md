@@ -1,5 +1,8 @@
 # CIT140-Portfolio
 #This repository contains my CIT 140 portfolio
+
+#Final Packet link: https://github.com/Acetamin1102/CIT140-Portfolio/blob/main/Week08/Artifact/Temple_Craig_CIT140_Portfolio_Review.pdf
+
 #Repository links:
 Week 1: https://github.com/Acetamin1102/CIT140-Portfolio/blob/main/Week01_Something_Isnt_Adding_Up/artifact/Temple_Craig_CIT140_Week01_Problem_Brief.pdf
 Week 2: https://github.com/Acetamin1102/CIT140-Portfolio/blob/main/Week02_Is_This_Project_Worth_Doing/CIT140%20Week%2002%20%E2%80%94%20Business%20Case%20Recommendation.pdf
