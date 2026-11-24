@@ -1,1 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net" version="24.7.17" type="device"><diagram id="w09-0" name="01 Choice"><mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title" value="CIT 140 Week 9 — 01 Choice" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="30" width="1000" height="50" as="geometry"/></mxCell><mxCell id="prompt" value="Name the archive problem and boundary. Compare approaches A and B against needs and limits. Choose one and explain a tradeoff." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="1000" height="130" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="w09-1" name="02 Design"><mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title" value="CIT 140 Week 9 — 02 Design" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="30" width="1000" height="50" as="geometry"/></mxCell><mxCell id="prompt" value="Proposed model OR prototype. Add roles, information, labeled decisions/states, normal route, clarification and correction route. Include a text route description." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="1000" height="130" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="w09-2" name="03 Traceability"><mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title" value="CIT 140 Week 9 — 03 Traceability" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="30" width="1000" height="50" as="geometry"/></mxCell><mxCell id="prompt" value="For EACH AR-01 through AR-06: source / design element or page / reason / proposed check. Explain current vs proposed, data quality and role access." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="1000" height="130" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="w09-3" name="04 Walkthroughs"><mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="title" value="CIT 140 Week 9 — 04 Walkthroughs" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="30" width="1000" height="50" as="geometry"/></mxCell><mxCell id="prompt" value="N01: actual route / expected outcome / gap / revision or supported no-change. E01: route before and after supplied correction / outcome / gap / revision. Add assumptions, risks and next checks." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="1000" height="130" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram id="w09-0" name="01 Choice">
+    <mxGraphModel dx="1156" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" value="CIT 140 Week 9 — 01 Choice" vertex="1">
+          <mxGeometry height="50" width="1000" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;fontStyle=1" value="Archive Problem: The current process depends on a desk clerk copying a paper slip into a shared spreadsheet, then sending the paper slip to a runner. The issue is that the request can move forward before anyone catches a missing destination or missing information needed by the destination keeper. By the time the keeper discovers a problem, the request has already been&#xa;handed off and has to come back to the clerk for clarification. Manually entering the same information also leaves room for human error, and unrestricted spreadsheet editing would be another concern if permissions are not controlled. We have not been given an actual error rate or time baseline, so these are process risks rather than measured results.&#xa;&#xa;Boundary: This design starts when a requester gives the desk a request and ends when the correct keeper acknowledges receipt, or the request is returned for clarification. Retrieving records, processing&#xa;payments, changing archive equipment" vertex="1">
+          <mxGeometry height="260" width="1020" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-27" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" value="Options Comparison" vertex="1">
+          <mxGeometry height="480" width="521" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-28" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="47" width="521" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-29" parent="MVATHw5-VSXownZHb5dM-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Options Considered" vertex="1">
+          <mxGeometry height="47" width="120" as="geometry">
+            <mxRectangle height="47" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-30" parent="MVATHw5-VSXownZHb5dM-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Option A- Improve existing workflow&amp;nbsp;" vertex="1">
+          <mxGeometry height="47" width="202" x="120" as="geometry">
+            <mxRectangle height="47" width="202" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-31" parent="MVATHw5-VSXownZHb5dM-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Option B- Small request Interface" vertex="1">
+          <mxGeometry height="47" width="199" x="322" as="geometry">
+            <mxRectangle height="47" width="199" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-32" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="135" width="521" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-33" parent="MVATHw5-VSXownZHb5dM-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Requirements requested" vertex="1">
+          <mxGeometry height="135" width="120" as="geometry">
+            <mxRectangle height="135" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-34" parent="MVATHw5-VSXownZHb5dM-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Standardized columns and manual checks could improve efficiency and tracking, but still leaves room for human error.&amp;nbsp;" vertex="1">
+          <mxGeometry height="135" width="202" x="120" as="geometry">
+            <mxRectangle height="135" width="202" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-35" parent="MVATHw5-VSXownZHb5dM-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Required fields in an interface, directory checks, and role specific views can guide workflow and reduce human error.&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="135" width="199" x="322" as="geometry">
+            <mxRectangle height="135" width="199" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-36" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="135" width="521" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-37" parent="MVATHw5-VSXownZHb5dM-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Existing limits" vertex="1">
+          <mxGeometry height="135" width="120" as="geometry">
+            <mxRectangle height="135" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-38" parent="MVATHw5-VSXownZHb5dM-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Keeps familiar spreadsheet and handoff process checked by staff.&amp;nbsp;" vertex="1">
+          <mxGeometry height="135" width="202" x="120" as="geometry">
+            <mxRectangle height="135" width="202" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-39" parent="MVATHw5-VSXownZHb5dM-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Uses existing directory as the source, any lookup method or locked down fields would need to be designed and scalable.&amp;nbsp;" vertex="1">
+          <mxGeometry height="135" width="199" x="322" as="geometry">
+            <mxRectangle height="135" width="199" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-40" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="133" width="521" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-41" parent="MVATHw5-VSXownZHb5dM-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Tradeoff" vertex="1">
+          <mxGeometry height="133" width="120" as="geometry">
+            <mxRectangle height="133" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-42" parent="MVATHw5-VSXownZHb5dM-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Lower disruption and probably less training, but still manual process. No costs identified but could be cost savings.&amp;nbsp;" vertex="1">
+          <mxGeometry height="133" width="202" x="120" as="geometry">
+            <mxRectangle height="133" width="202" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-43" parent="MVATHw5-VSXownZHb5dM-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="More standardized workflow reducting human error and intervention but requires design, testing, implementation, training of staff, and approval. No estimates for cost savings.&amp;nbsp;" vertex="1">
+          <mxGeometry height="133" width="199" x="322" as="geometry">
+            <mxRectangle height="133" width="199" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w09-1" name="02 Design">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="CIT 140 Week 9 — 02 Design" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="1000" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt" value="Proposed model OR prototype. Add roles, information, labeled decisions/states, normal route, clarification and correction route. Include a text route description." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="1000" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w09-2" name="03 Traceability">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="CIT 140 Week 9 — 03 Traceability" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="1000" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt" value="For EACH AR-01 through AR-06: source / design element or page / reason / proposed check. Explain current vs proposed, data quality and role access." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="1000" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w09-3" name="04 Walkthroughs">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="CIT 140 Week 9 — 04 Walkthroughs" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="1000" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt" value="N01: actual route / expected outcome / gap / revision or supported no-change. E01: route before and after supplied correction / outcome / gap / revision. Add assumptions, risks and next checks." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="1000" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
