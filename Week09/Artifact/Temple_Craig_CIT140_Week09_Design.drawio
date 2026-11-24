@@ -1,89 +1,206 @@
 <mxfile host="app.diagrams.net" pages="4">
   <diagram id="w09-0" name="01 Choice">
-    <mxGraphModel dx="1156" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" value="CIT 140 Week 9 — 01 Choice" vertex="1">
-          <mxGeometry height="50" width="1000" x="40" y="30" as="geometry" />
+          <mxGeometry height="50" width="1000" x="40" y="10" as="geometry" />
         </mxCell>
         <mxCell id="prompt" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;fontStyle=1" value="Archive Problem: The current process depends on a desk clerk copying a paper slip into a shared spreadsheet, then sending the paper slip to a runner. The issue is that the request can move forward before anyone catches a missing destination or missing information needed by the destination keeper. By the time the keeper discovers a problem, the request has already been&#xa;handed off and has to come back to the clerk for clarification. Manually entering the same information also leaves room for human error, and unrestricted spreadsheet editing would be another concern if permissions are not controlled. We have not been given an actual error rate or time baseline, so these are process risks rather than measured results.&#xa;&#xa;Boundary: This design starts when a requester gives the desk a request and ends when the correct keeper acknowledges receipt, or the request is returned for clarification. Retrieving records, processing&#xa;payments, changing archive equipment" vertex="1">
-          <mxGeometry height="260" width="1020" x="40" y="80" as="geometry" />
+          <mxGeometry height="210" width="1090" y="50" as="geometry" />
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-27" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" value="Options Comparison" vertex="1">
-          <mxGeometry height="480" width="521" x="40" y="310" as="geometry" />
+          <mxGeometry height="420" width="580" x="10" y="270" as="geometry" />
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-28" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="47" width="521" y="30" as="geometry" />
+          <mxGeometry height="41" width="580" y="30" as="geometry" />
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-29" parent="MVATHw5-VSXownZHb5dM-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Options Considered" vertex="1">
-          <mxGeometry height="47" width="120" as="geometry">
-            <mxRectangle height="47" width="120" as="alternateBounds" />
+          <mxGeometry height="41" width="134" as="geometry">
+            <mxRectangle height="41" width="134" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-30" parent="MVATHw5-VSXownZHb5dM-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Option A- Improve existing workflow&amp;nbsp;" vertex="1">
-          <mxGeometry height="47" width="202" x="120" as="geometry">
-            <mxRectangle height="47" width="202" as="alternateBounds" />
+          <mxGeometry height="41" width="224" x="134" as="geometry">
+            <mxRectangle height="41" width="224" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-31" parent="MVATHw5-VSXownZHb5dM-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Option B- Small request Interface" vertex="1">
-          <mxGeometry height="47" width="199" x="322" as="geometry">
-            <mxRectangle height="47" width="199" as="alternateBounds" />
+          <mxGeometry height="41" width="222" x="358" as="geometry">
+            <mxRectangle height="41" width="222" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-32" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="135" width="521" y="77" as="geometry" />
+          <mxGeometry height="117" width="580" y="71" as="geometry" />
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-33" parent="MVATHw5-VSXownZHb5dM-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Requirements requested" vertex="1">
-          <mxGeometry height="135" width="120" as="geometry">
-            <mxRectangle height="135" width="120" as="alternateBounds" />
+          <mxGeometry height="117" width="134" as="geometry">
+            <mxRectangle height="117" width="134" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-34" parent="MVATHw5-VSXownZHb5dM-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Standardized columns and manual checks could improve efficiency and tracking, but still leaves room for human error.&amp;nbsp;" vertex="1">
-          <mxGeometry height="135" width="202" x="120" as="geometry">
-            <mxRectangle height="135" width="202" as="alternateBounds" />
+          <mxGeometry height="117" width="224" x="134" as="geometry">
+            <mxRectangle height="117" width="224" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-35" parent="MVATHw5-VSXownZHb5dM-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Required fields in an interface, directory checks, and role specific views can guide workflow and reduce human error.&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="135" width="199" x="322" as="geometry">
-            <mxRectangle height="135" width="199" as="alternateBounds" />
+          <mxGeometry height="117" width="222" x="358" as="geometry">
+            <mxRectangle height="117" width="222" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-36" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="135" width="521" y="212" as="geometry" />
+          <mxGeometry height="117" width="580" y="188" as="geometry" />
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-37" parent="MVATHw5-VSXownZHb5dM-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Existing limits" vertex="1">
-          <mxGeometry height="135" width="120" as="geometry">
-            <mxRectangle height="135" width="120" as="alternateBounds" />
+          <mxGeometry height="117" width="134" as="geometry">
+            <mxRectangle height="117" width="134" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-38" parent="MVATHw5-VSXownZHb5dM-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Keeps familiar spreadsheet and handoff process checked by staff.&amp;nbsp;" vertex="1">
-          <mxGeometry height="135" width="202" x="120" as="geometry">
-            <mxRectangle height="135" width="202" as="alternateBounds" />
+          <mxGeometry height="117" width="224" x="134" as="geometry">
+            <mxRectangle height="117" width="224" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-39" parent="MVATHw5-VSXownZHb5dM-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Uses existing directory as the source, any lookup method or locked down fields would need to be designed and scalable.&amp;nbsp;" vertex="1">
-          <mxGeometry height="135" width="199" x="322" as="geometry">
-            <mxRectangle height="135" width="199" as="alternateBounds" />
+          <mxGeometry height="117" width="222" x="358" as="geometry">
+            <mxRectangle height="117" width="222" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-40" parent="MVATHw5-VSXownZHb5dM-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="133" width="521" y="347" as="geometry" />
+          <mxGeometry height="115" width="580" y="305" as="geometry" />
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-41" parent="MVATHw5-VSXownZHb5dM-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontStyle=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Tradeoff" vertex="1">
-          <mxGeometry height="133" width="120" as="geometry">
-            <mxRectangle height="133" width="120" as="alternateBounds" />
+          <mxGeometry height="115" width="134" as="geometry">
+            <mxRectangle height="115" width="134" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-42" parent="MVATHw5-VSXownZHb5dM-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="Lower disruption and probably less training, but still manual process. No costs identified but could be cost savings.&amp;nbsp;" vertex="1">
-          <mxGeometry height="133" width="202" x="120" as="geometry">
-            <mxRectangle height="133" width="202" as="alternateBounds" />
+          <mxGeometry height="115" width="224" x="134" as="geometry">
+            <mxRectangle height="115" width="224" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVATHw5-VSXownZHb5dM-43" parent="MVATHw5-VSXownZHb5dM-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=light-dark(#FFFFFF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);gradientColor=light-dark(#000000,#A9C4EB);" value="More standardized workflow reducting human error and intervention but requires design, testing, implementation, training of staff, and approval. No estimates for cost savings.&amp;nbsp;" vertex="1">
-          <mxGeometry height="133" width="199" x="322" as="geometry">
-            <mxRectangle height="133" width="199" as="alternateBounds" />
+          <mxGeometry height="115" width="222" x="358" as="geometry">
+            <mxRectangle height="115" width="222" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-44" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;fontStyle=1" value="Decision: Approach B. &#xa;I would rather address the point where the mistake starts instead of adding more manual checks to the same spreadsheet. The tradeoff is that the interface takes more effort to build, potentially initial cost, and training for staff. Until approved, the paper process must remain available so the archive can continue operating.&#xa;" vertex="1">
+          <mxGeometry height="60" width="1070" x="10" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=8;" value="Request" vertex="1">
+          <mxGeometry height="20" width="50" x="690" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-46" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-45" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="MVATHw5-VSXownZHb5dM-48" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="485" as="sourcePoint" />
+            <mxPoint x="920" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-47" connectable="0" parent="MVATHw5-VSXownZHb5dM-46" style="edgeLabel;resizable=0;html=1;inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=8;" value="Paper Slip" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-59" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="MVATHw5-VSXownZHb5dM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=9;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="Data Clerk" vertex="1">
+          <mxGeometry height="20" width="60" x="685" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-49" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Shared&lt;div&gt;Spreadsheet&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="60" x="810" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-50" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="New Request?" vertex="1">
+          <mxGeometry height="50" width="70" x="680" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-52" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-50" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MVATHw5-VSXownZHb5dM-60" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="485" as="sourcePoint" />
+            <mxPoint x="820" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-53" connectable="0" parent="MVATHw5-VSXownZHb5dM-52" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="NO" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-54" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-50" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MVATHw5-VSXownZHb5dM-64" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="565" as="sourcePoint" />
+            <mxPoint x="715" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-55" connectable="0" parent="MVATHw5-VSXownZHb5dM-54" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="YES" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-57" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-48" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="MVATHw5-VSXownZHb5dM-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="475" as="sourcePoint" />
+            <mxPoint x="920" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-58" connectable="0" parent="MVATHw5-VSXownZHb5dM-57" style="edgeLabel;resizable=0;html=1;inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=8;" value="Manual Load" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=8;" value="Obtain Clarification" vertex="1">
+          <mxGeometry height="35" width="60" x="810" y="432.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-61" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-60" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="MVATHw5-VSXownZHb5dM-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="545" as="sourcePoint" />
+            <mxPoint x="920" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-62" connectable="0" parent="MVATHw5-VSXownZHb5dM-61" style="edgeLabel;resizable=0;html=1;inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=9;" value="Update" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=9;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="Outgoing Tray" vertex="1">
+          <mxGeometry height="20" width="60" x="685" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-65" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="MVATHw5-VSXownZHb5dM-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-64" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=8;" value="Apply Seal" vertex="1">
+          <mxGeometry height="35" width="50" x="690" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-70" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="MVATHw5-VSXownZHb5dM-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=9;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="Destination Keeper" vertex="1">
+          <mxGeometry height="20" width="60" x="685" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-67" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-63" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MVATHw5-VSXownZHb5dM-66" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="645" as="sourcePoint" />
+            <mxPoint x="890" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-68" connectable="0" parent="MVATHw5-VSXownZHb5dM-67" style="edgeLabel;resizable=0;html=1;inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=9;" value="Runner" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-69" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="Missing information?" vertex="1">
+          <mxGeometry height="50" width="80" x="800" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-71" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-69" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="MVATHw5-VSXownZHb5dM-60" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="575" as="sourcePoint" />
+            <mxPoint x="940" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-72" connectable="0" parent="MVATHw5-VSXownZHb5dM-71" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="YES" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-74" edge="1" parent="1" source="MVATHw5-VSXownZHb5dM-69" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MVATHw5-VSXownZHb5dM-76" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="625" as="sourcePoint" />
+            <mxPoint x="930" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-75" connectable="0" parent="MVATHw5-VSXownZHb5dM-74" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="NO" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-76" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Workflow Complete" vertex="1">
+          <mxGeometry height="50" width="50" x="950" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="MVATHw5-VSXownZHb5dM-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=17;fontStyle=5;fontFamily=Times New Roman;" value="Current Workflow" vertex="1">
+          <mxGeometry height="35" width="220" x="730" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
