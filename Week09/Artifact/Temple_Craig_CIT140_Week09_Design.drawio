@@ -281,29 +281,193 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w09-2" name="03 Traceability">
-    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="CIT 140 Week 9 — 03 Traceability" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="1000" height="50" as="geometry" />
+        <mxCell id="title" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" value="CIT 140 Week 9 — 03 Traceability" vertex="1">
+          <mxGeometry height="50" width="1000" x="40" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="prompt" value="For EACH AR-01 through AR-06: source / design element or page / reason / proposed check. Explain current vs proposed, data quality and role access." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="1000" height="130" as="geometry" />
+        <mxCell id="prompt" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontStyle=0" value="Current Process: Today the clerk copies a paper slip into a spreadsheet without requiredfield checks, then seals it and sends it to the outgoing tray. The runner picks the destination from the slip, and the keeper may be the first person to catch a missing or incorrect detail. Status is free text, and it does not consistently identify who changed it or when. Under the proposal, the desk validates required fields and the reference/ destination combination before dispatch. Requests that fail stay with the desk until corrected and rechecked. Each handoff and status change would be recorded, and role-based access would separate contact details from delivery information. &#xa;&#xa;Data quality: Required fields, directory matching, correction history, and revalidation reduce opportunities for incomplete or conflicting data. The interface should not quietly replace an incorrect reference. &#xa;&#xa;Access: Desk contact details would be restricted by role, including on exported or printed runner slips. Actual permission enforcement, audit logging, and directory behavior still need to be built and tested." vertex="1">
+          <mxGeometry height="170" width="1000" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-1" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;" value="" vertex="1">
+          <mxGeometry height="580" width="930" x="100" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-2" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=light-dark(#000000,#000000);collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="82" width="930" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-3" parent="GlCiMWkzsJfyI1Iwu1g1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;pointerEvents=1;gradientColor=#7ea6e0;fontSize=16;" value="Requirement" vertex="1">
+          <mxGeometry height="82" width="233" as="geometry">
+            <mxRectangle height="82" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-4" parent="GlCiMWkzsJfyI1Iwu1g1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;pointerEvents=1;gradientColor=#7ea6e0;fontSize=16;" value="Design Element" vertex="1">
+          <mxGeometry height="82" width="232" x="233" as="geometry">
+            <mxRectangle height="82" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-5" parent="GlCiMWkzsJfyI1Iwu1g1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;pointerEvents=1;gradientColor=#7ea6e0;fontSize=16;" value="Use Case" vertex="1">
+          <mxGeometry height="82" width="233" x="465" as="geometry">
+            <mxRectangle height="82" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-6" parent="GlCiMWkzsJfyI1Iwu1g1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;pointerEvents=1;gradientColor=#7ea6e0;fontSize=16;" value="Validation" vertex="1">
+          <mxGeometry height="82" width="232" x="698" as="geometry">
+            <mxRectangle height="82" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-7" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=light-dark(#000000,#000000);collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=10;" value="" vertex="1">
+          <mxGeometry height="84" width="930" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-8" parent="GlCiMWkzsJfyI1Iwu1g1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;fontStyle=0" value="&lt;div&gt;AR-01 — Desk&lt;/div&gt;&lt;div&gt;clerk, W09-S02/&lt;/div&gt;&lt;div&gt;S01&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="233" as="geometry">
+            <mxRectangle height="84" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-9" parent="GlCiMWkzsJfyI1Iwu1g1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Request record and&lt;br/&gt;intake step 1" vertex="1">
+          <mxGeometry height="84" width="232" x="233" as="geometry">
+            <mxRectangle height="84" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-10" parent="GlCiMWkzsJfyI1Iwu1g1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Keeps all six identifying&lt;br/&gt;fields together under one&lt;br/&gt;request ID rather than&lt;br/&gt;relying on a spreadsheet&lt;br/&gt;row and paper slip.&amp;nbsp;" vertex="1">
+          <mxGeometry height="84" width="233" x="465" as="geometry">
+            <mxRectangle height="84" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-11" parent="GlCiMWkzsJfyI1Iwu1g1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Open N01, verify ID,&lt;br/&gt;requester, contact, reference,&lt;br/&gt;destination and summary;&lt;br/&gt;find the same ID at handoff.&amp;nbsp;" vertex="1">
+          <mxGeometry height="84" width="232" x="698" as="geometry">
+            <mxRectangle height="84" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-12" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=light-dark(#000000,#000000);collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=10;" value="" vertex="1">
+          <mxGeometry height="83" width="930" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-13" parent="GlCiMWkzsJfyI1Iwu1g1-12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;fontStyle=0" value="&lt;div&gt;AR-02 — Desk&lt;/div&gt;&lt;div&gt;clerk, W09-S02/&lt;/div&gt;&lt;div&gt;S01&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="83" width="233" as="geometry">
+            <mxRectangle height="83" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-14" parent="GlCiMWkzsJfyI1Iwu1g1-12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Validation decision step&lt;br/&gt;2; clarification step 2a&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="232" x="233" as="geometry">
+            <mxRectangle height="83" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-15" parent="GlCiMWkzsJfyI1Iwu1g1-12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Stops incomplete or&lt;br/&gt;mismatched requests&lt;br/&gt;before they reach the&lt;br/&gt;runner.&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="233" x="465" as="geometry">
+            <mxRectangle height="83" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-16" parent="GlCiMWkzsJfyI1Iwu1g1-12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Enter E01 with blank&lt;br/&gt;destination and CK-099;&lt;br/&gt;confirm dispatch is blocked&lt;br/&gt;and a clear correction action&lt;br/&gt;appears.&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="232" x="698" as="geometry">
+            <mxRectangle height="83" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-17" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=light-dark(#000000,#000000);collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=10;" value="" vertex="1">
+          <mxGeometry height="82" width="930" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-18" parent="GlCiMWkzsJfyI1Iwu1g1-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;fontStyle=0" value="&lt;div&gt;AR-03 — Runner&lt;/div&gt;&lt;div&gt;and keeper, W09-&lt;/div&gt;&lt;div&gt;S02/S03&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="233" as="geometry">
+            <mxRectangle height="82" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-19" parent="GlCiMWkzsJfyI1Iwu1g1-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Steps 3–5, named&lt;br/&gt;handoff and keeper&lt;br/&gt;acknowledgment&amp;nbsp;" vertex="1">
+          <mxGeometry height="82" width="232" x="233" as="geometry">
+            <mxRectangle height="82" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-20" parent="GlCiMWkzsJfyI1Iwu1g1-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Makes ownership and&lt;br/&gt;destination clear and&lt;br/&gt;provides evidence that&lt;br/&gt;the request reached the&lt;br/&gt;keeper.&amp;nbsp;" vertex="1">
+          <mxGeometry height="82" width="233" x="465" as="geometry">
+            <mxRectangle height="82" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-21" parent="GlCiMWkzsJfyI1Iwu1g1-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Follow Q-241 from desk to&lt;br/&gt;runner to East Records and&lt;br/&gt;find its keeper&lt;br/&gt;acknowledgment" vertex="1">
+          <mxGeometry height="82" width="232" x="698" as="geometry">
+            <mxRectangle height="82" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-22" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=light-dark(#000000,#000000);collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=10;" value="" vertex="1">
+          <mxGeometry height="83" width="930" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-23" parent="GlCiMWkzsJfyI1Iwu1g1-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;fontStyle=0" value="&lt;div&gt;AR-04 — Iona,&lt;/div&gt;&lt;div&gt;W09-S02/S01&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="83" width="233" as="geometry">
+            <mxRectangle height="83" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-24" parent="GlCiMWkzsJfyI1Iwu1g1-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Status history and&lt;br/&gt;clarification log&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="232" x="233" as="geometry">
+            <mxRectangle height="83" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-25" parent="GlCiMWkzsJfyI1Iwu1g1-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Replaces inconsistent&lt;br/&gt;free-text status with&lt;br/&gt;traceable changes and&lt;br/&gt;preserves errors rather&lt;br/&gt;than overwriting them.&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="233" x="465" as="geometry">
+            <mxRectangle height="83" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-26" parent="GlCiMWkzsJfyI1Iwu1g1-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Review Q-242 and find its&lt;br/&gt;original issue, correction,&lt;br/&gt;statuses, staff identities and&lt;br/&gt;times.&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="232" x="698" as="geometry">
+            <mxRectangle height="83" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-27" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=light-dark(#000000,#000000);collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=10;" value="" vertex="1">
+          <mxGeometry height="84" width="930" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-28" parent="GlCiMWkzsJfyI1Iwu1g1-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;fontStyle=0" value="&lt;div&gt;AR-05 — Iona and&lt;/div&gt;&lt;div&gt;desk clerk, W09-&lt;/div&gt;&lt;div&gt;S02/S03&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="233" as="geometry">
+            <mxRectangle height="84" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-29" parent="GlCiMWkzsJfyI1Iwu1g1-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Role-based views and&lt;br/&gt;delivery slip&amp;nbsp;" vertex="1">
+          <mxGeometry height="84" width="232" x="233" as="geometry">
+            <mxRectangle height="84" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-30" parent="GlCiMWkzsJfyI1Iwu1g1-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Runner does not need&lt;br/&gt;contact information to&lt;br/&gt;complete a delivery.&amp;nbsp;" vertex="1">
+          <mxGeometry height="84" width="233" x="465" as="geometry">
+            <mxRectangle height="84" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-31" parent="GlCiMWkzsJfyI1Iwu1g1-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Compare desk and runner&lt;br/&gt;views; ensure the runner&lt;br/&gt;cannot view the requester&lt;br/&gt;contact.&amp;nbsp;" vertex="1">
+          <mxGeometry height="84" width="232" x="698" as="geometry">
+            <mxRectangle height="84" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-32" parent="GlCiMWkzsJfyI1Iwu1g1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#001DBC;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;swimlaneFillColor=light-dark(#0050EF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=10;" value="" vertex="1">
+          <mxGeometry height="82" width="930" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-33" parent="GlCiMWkzsJfyI1Iwu1g1-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;fontStyle=0" value="&lt;div&gt;AR-06 — Desk&lt;/div&gt;&lt;div&gt;and runner reps,&lt;/div&gt;&lt;div&gt;W09-S02/S04&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="233" as="geometry">
+            <mxRectangle height="82" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-34" parent="GlCiMWkzsJfyI1Iwu1g1-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Written state/error&lt;br/&gt;instructions and future&lt;br/&gt;interface accessibility&lt;br/&gt;rules&amp;nbsp;" vertex="1">
+          <mxGeometry height="82" width="232" x="233" as="geometry">
+            <mxRectangle height="82" width="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-35" parent="GlCiMWkzsJfyI1Iwu1g1-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Staff need to understand&lt;br/&gt;decisions without color,&lt;br/&gt;and the interface should&lt;br/&gt;be navigable without a&lt;br/&gt;mouse.&amp;nbsp;" vertex="1">
+          <mxGeometry height="82" width="233" x="465" as="geometry">
+            <mxRectangle height="82" width="233" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlCiMWkzsJfyI1Iwu1g1-36" parent="GlCiMWkzsJfyI1Iwu1g1-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=light-dark(#000000,#000000);overflow=hidden;fillColor=light-dark(#0050EF,#FFFFFF);pointerEvents=1;fontColor=light-dark(#000000,#000000);fontSize=10;" value="Read the error and next&lt;br/&gt;action in text; during&lt;br/&gt;implementation test labels,&lt;br/&gt;focus order and keyboard&lt;br/&gt;controls.&amp;nbsp;" vertex="1">
+          <mxGeometry height="82" width="232" x="698" as="geometry">
+            <mxRectangle height="82" width="232" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="w09-3" name="04 Walkthroughs">
-    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="850">
+    <mxGraphModel dx="1245" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="CIT 140 Week 9 — 04 Walkthroughs" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="1000" height="50" as="geometry" />
+        <mxCell id="title" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" value="CIT 140 Week 9 — 04 Walkthroughs" vertex="1">
+          <mxGeometry height="50" width="1000" x="40" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="prompt" value="N01: actual route / expected outcome / gap / revision or supported no-change. E01: route before and after supplied correction / outcome / gap / revision. Add assumptions, risks and next checks." style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="1000" height="130" as="geometry" />
+        <mxCell id="prompt" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" value="N01: actual route / expected outcome / gap / revision or supported no-change. E01: route before and after supplied correction / outcome / gap / revision. Add assumptions, risks and next checks." vertex="1">
+          <mxGeometry height="130" width="1000" x="40" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
