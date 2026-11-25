@@ -463,11 +463,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;" value="CIT 140 Week 9 — 04 Walkthroughs" vertex="1">
+        <mxCell id="title" parent="1" style="text;html=0;fontSize=26;fontStyle=1;align=left;verticalAlign=top;fillColor=none;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="CIT 140 Week 9 — 04 Walkthroughs" vertex="1">
           <mxGeometry height="50" width="1000" x="40" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="prompt" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;" value="N01: actual route / expected outcome / gap / revision or supported no-change. E01: route before and after supplied correction / outcome / gap / revision. Add assumptions, risks and next checks." vertex="1">
-          <mxGeometry height="130" width="1000" x="40" y="100" as="geometry" />
+        <mxCell id="prompt" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="N01: actual route / expected outcome / gap / revision or supported no-change. E01: route before and after supplied correction / outcome / gap / revision. Add assumptions, risks and next checks.&#xa;&#xa;N01 – Complete Request (Q-241)&#xa;Route: Desk enters request → System validates CK-042 matches East Records → Ready for Dispatch → Runner delivers → Keeper acknowledges receipt → Received.&#xa;Expected Outcome: Request reaches the correct keeper without requiring clarification.&#xa;Gap/Revision: Clarified that the runner updates the delivery handoff and the keeper acknowledges receipt. Both actions record the staff member and timestamp.&#xa;&#xa;E01 – Incomplete Request (Q-242)&#xa;Route: Desk enters request → System identifies missing destination and invalid CK-099 → Awaiting Clarification → Requester provides CK-042 / East Records → Desk records correction → System revalidates → Runner delivers → Keeper acknowledges → Received.&#xa;Expected Outcome: Incomplete requests cannot be dispatched until corrected and validated.&#xa;Gap/Revision: Clarified that corrected requests must go through validation again before dispatch. Original values and corrections are preserved in the request history.&#xa;&#xa;Assumptions, Risks &amp; Next Checks&#xa;Assumption: The existing directory is accurate and maintained.&#xa;Risk: Outdated directory information or system downtime could delay requests.&#xa;Next Checks: Test validation, correction history, role-based access, and status tracking before implementation.&#xa;" vertex="1">
+          <mxGeometry height="470" width="1000" x="40" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
